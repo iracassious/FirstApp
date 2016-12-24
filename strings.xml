@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Happy Birthday</string>
+    <string name="congrats">Congrats on being old enough to drink!</string>
+    <string name="drunk">Just don\'t get too drunk on my carpet.</string>
+    <string name="pinkballoonsDesc">Pink Balloons</string>
+    <string name="flowerDesc">Pixel Flower</string>
+    <string name="birthdaycakeDesc">Birthday Cake</string>
+</resources>

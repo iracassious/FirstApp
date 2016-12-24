@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/AppTheme"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:src="@drawable/pinkballoons"
+        android:id="@+id/pinkBalloonsImage"
+        android:contentDescription="@string/pinkballoonsDesc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="@string/congrats"
+        android:id="@+id/congratsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="34sp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:text="@string/drunk"
+        android:id="@+id/drunkText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/transpFlowerImage"
+        android:layout_alignStart="@+id/transpFlowerImage" />
+
+    <ImageView
+        android:src="@drawable/transpflower"
+        android:id="@+id/transpFlowerImage"
+        android:contentDescription="@string/flowerDesc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/congratsText"
+        android:layout_above="@id/drunkText"/>
+
+    <ImageView
+        android:src="@drawable/transpflower2"
+        android:id="@+id/transpFlower2Image"
+        android:contentDescription="@string/flowerDesc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/congratsText"
+        android:layout_above="@id/drunkText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:src="@drawable/birthdaycake"
+        android:id="@+id/birthdayCakeImage"
+        android:contentDescription="@string/birthdaycakeDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.5"
+        android:scaleY="0.5"/>
+
+
+</RelativeLayout>
